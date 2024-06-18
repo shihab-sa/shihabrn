@@ -10,10 +10,10 @@ const App = () => {
   return (
     <Router>
       <div className="flex">
-        <div className="flex-3 w-[20%]">
+        <div className="flex-3 lg:w-[20%] md:w-[20%]">
           <Sidebar />
         </div>
-        <div className="flex-9 w-[80%]">
+        <div className="flex-9 lg:w-[80%] md:w-[80%]">
           <Routes>
             <Route path="/home" element={<Home />} />
             <Route path="/projects" element={<Projects />} />

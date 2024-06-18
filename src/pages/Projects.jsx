@@ -2,7 +2,7 @@ import imgs from "../assets/imeges/proone.png";
 
 function Projects() {
   return (
-    <div className="px-4 py-10 md:px-20 md:py-24">
+    <div className="px-4  py-28 md:px-20 md:py-24">
       {/* Content section start  */}
       <div>
         <h1 className="text-xl md:text-2xl font-extrabold">
