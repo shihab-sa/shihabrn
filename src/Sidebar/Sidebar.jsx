@@ -17,7 +17,7 @@ const Sidebar = () => {
       {/* Mobile Menu Button */}
       <button
         onClick={toggleSidebar}
-        className="fixed top-0 left-0 z-50 md:hidden bg-black text-white p-2 rounded-lg"
+        className="fixed top-0 right-0 z-50 md:hidden text-white p-2 bg-gray-800 w-[100%]"
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
@@ -29,7 +29,7 @@ const Sidebar = () => {
       >
         <div className="p-4 flex flex-col h-full justify-between">
           <div>
-            <div className="flex items-center gap-4 px-4 py-4">
+            <div className="flex items-center gap-4 px-4 py-4 mt-10">
               <div className="avatar online">
                 <div className="w-10 h-10 rounded-full ring ring-sky-600">
                   <img
