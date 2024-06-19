@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper/modules";
+import Avatar from "./Avatar";
 
 function MySweper() {
   return (
@@ -14,10 +15,10 @@ function MySweper() {
       <Swiper
         pagination={{ clickable: true }}
         modules={[Pagination]}
-        className="mySwiper h-40 w-56 rounded-xl"
+        className="mySwiper h-40 w-56 rounded-xl flex items-center"
       >
         <SwiperSlide className="flex justify-center items-center text-lg bg-violet-600">
-          Slide 1
+          <Avatar />
         </SwiperSlide>
         <SwiperSlide className="flex justify-center items-center text-lg bg-violet-600">
           Slide 2
