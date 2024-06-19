@@ -9,7 +9,9 @@ function Home() {
         <Avatar />
         <div className="text-center sm:text-left">
           <h1 className="text-3xl sm:text-4xl font-extrabold">Shihab Ahmed</h1>
-          <h1 className="text-lg sm:text-xl font-semibold">React Native</h1>
+          <h1 className="text-lg sm:text-xl font-semibold">
+            React Native Experts
+          </h1>
         </div>
       </div>
 
@@ -26,6 +28,10 @@ function Home() {
         project in 2017 with the goal to make mobile experiences easy to create,
         share, and discover.
       </p>
+
+      <button className="btn btn-outline btn-info mt-5 w-full sm:w-[45%]">
+        Go to More Web Front End Projects
+      </button>
     </div>
   );
 }
