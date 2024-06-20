@@ -1,6 +1,5 @@
 import Avatar from "../components/Avatar";
-import MySweper from "../components/MySweper";
-import RadialProgress from "../components/RadialProgress";
+import My from "../components/My";
 
 function Home() {
   return (
@@ -15,9 +14,10 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-5 items-center mt-5">
-        <MySweper />
-        <RadialProgress />
+      <div className="mt-5">
+        {/* <MySweper />
+        <RadialProgress /> */}
+        <My />
       </div>
       <button className="btn btn-outline btn-info mt-5 w-full sm:w-[45%]">
         Download CV

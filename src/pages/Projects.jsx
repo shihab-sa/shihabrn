@@ -2,7 +2,8 @@ import imgs from "../assets/imeges/proone.png";
 
 function Projects() {
   return (
-    <div className="px-4  py-28 md:px-20 md:py-24">
+    <div className="mt-20 mb-20 ml-3 mr-3">
+      {/* mb-20 px-4 py-28 md:px-20 md:py-24 */}
       {/* Content section start  */}
       <div>
         <h1 className="text-xl md:text-2xl font-extrabold">
@@ -16,7 +17,6 @@ function Projects() {
         </p>
       </div>
       {/* Content section end  */}
-
       {/* project cart section start  */}
       <div className="mt-14 md:mt-28">
         <h1 className="text-xl md:text-2xl font-bold mt-5">Wifi Blocker</h1>
@@ -27,7 +27,6 @@ function Projects() {
         />
       </div>
       {/* project cart section end  */}
-
       {/* technology using start  */}
       <div className="mt-5">
         <button className="btn btn-wide btn-primary">
@@ -35,7 +34,6 @@ function Projects() {
         </button>
       </div>
       {/* technology using end  */}
-
       {/* Project short description start  */}
       <p className="mt-5 text-sm md:text-base">
         I'm Evan Bacon, an artist and technologist. I'm currently building Expo
