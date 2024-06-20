@@ -2,8 +2,8 @@ import imgs from "../assets/imeges/proone.png";
 
 function Projects() {
   return (
-    <div className="mt-20 mb-20 ml-3 mr-3">
-      {/* mb-20 px-4 py-28 md:px-20 md:py-24 */}
+    <div className="mb-20 px-4 py-28 md:px-20 md:py-24">
+      {/* */}
       {/* Content section start  */}
       <div>
         <h1 className="text-xl md:text-2xl font-extrabold">

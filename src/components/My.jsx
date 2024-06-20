@@ -34,7 +34,7 @@ function MySwiper() {
   };
 
   return (
-    <div className="gap-5 flex flex-col sm:flex-row gap-5 items-center">
+    <div className="flex flex-col sm:flex-row gap-5 items-center">
       <RadialProgress value={progressValue} />
       <Swiper
         pagination={{ clickable: true }}
@@ -42,16 +42,16 @@ function MySwiper() {
         className="mySwiper h-40 w-56 rounded-xl flex items-center"
         onSlideChange={handleSlideChange}
       >
-        <SwiperSlide className="flex justify-center items-center text-lg bg-violet-600">
+        <SwiperSlide className="flex justify-center items-center bg-violet-600 text-xs font-semibold ">
           Reanimated
         </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center text-lg bg-violet-600">
+        <SwiperSlide className="flex justify-center items-center  bg-violet-600 text-xs font-semibold">
           React Native Skia
         </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center text-lg bg-violet-600">
+        <SwiperSlide className="flex justify-center items-center  bg-violet-600 text-xs font-semibold">
           Expo
         </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center text-lg bg-violet-600">
+        <SwiperSlide className="flex justify-center items-center  bg-violet-600 text-xs font-semibold">
           React Native Doc
         </SwiperSlide>
       </Swiper>

@@ -3,7 +3,7 @@ import My from "../components/My";
 
 function Home() {
   return (
-    <div className="mt-24 mb-24 flex flex-col items-center px-4">
+    <div className="mt-24 mb-24 flex flex-col items-center ml-5 mr-5">
       <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-10">
         <Avatar />
         <div className="text-center sm:text-left">
