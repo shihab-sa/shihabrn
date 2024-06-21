@@ -18,29 +18,26 @@ function Projects() {
       </div>
       {/* Content section end  */}
       {/* project cart section start  */}
-      <div className="mt-14 md:mt-28">
+
+      <div className="mt-14 md:mt-28 md:ml-32 md:mr-32">
         <h1 className="text-xl md:text-2xl font-bold mt-5">Wifi Blocker</h1>
-        <img
-          src={imgs}
-          alt="images"
-          className="rounded-xl mt-5 w-full md:w-auto"
-        />
+        <img src={imgs} alt="images" className="rounded-xl  md:w-auto" />
+
+        {/* project cart section end  */}
+        {/* technology using start  */}
+        <div className="">
+          <button className="btn btn-wide btn-primary">Play / App Store</button>
+        </div>
+        {/* technology using end  */}
+        {/* Project short description start  */}
+        <p className="mt-5 text-sm md:text-base">
+          I'm Evan Bacon, an artist and technologist. I'm currently building
+          Expo Router, the universal React framework. I started working on the
+          Expo project in 2017 with the goal to make mobile experiences easy to
+          create, share, and discover.
+        </p>
       </div>
-      {/* project cart section end  */}
-      {/* technology using start  */}
-      <div className="mt-5">
-        <button className="btn btn-wide btn-primary">
-          Go to Google Play Store
-        </button>
-      </div>
-      {/* technology using end  */}
-      {/* Project short description start  */}
-      <p className="mt-5 text-sm md:text-base">
-        I'm Evan Bacon, an artist and technologist. I'm currently building Expo
-        Router, the universal React framework. I started working on the Expo
-        project in 2017 with the goal to make mobile experiences easy to create,
-        share, and discover.
-      </p>
+
       {/* Project short description end  */}
     </div>
   );

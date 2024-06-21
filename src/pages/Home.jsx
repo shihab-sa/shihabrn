@@ -22,6 +22,7 @@ function Home() {
       <button className="btn btn-outline btn-info mt-5 w-full sm:w-[45%]">
         Download CV
       </button>
+
       <p className="mt-5 w-full sm:w-[45%] text-center sm:text-left">
         I'm Evan Bacon, an artist and technologist. I'm currently building Expo
         Router, the universal React framework. I started working on the Expo
