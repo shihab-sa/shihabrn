@@ -8,7 +8,7 @@ function Avatar() {
       </div>
       <div className="ml-10">
         <h1 className=" md:text-3xl font-extrabold">Shihab Ahmed</h1>
-        <h2 className=" text-xm">React Native Expert</h2>
+        <h2 className=" text-xm">React Native</h2>
       </div>
     </div>
   );
