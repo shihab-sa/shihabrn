@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <div>
+    <div className=" md:ml-56">
       <div className=" mt-20">
         <h1 className=" text-2xl font-extrabold">
           Hire Your Mobile App Experts🔥
