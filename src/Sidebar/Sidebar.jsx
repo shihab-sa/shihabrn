@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Home, Gamepad2, SquareKanban, Menu, X } from "lucide-react";
+import { Home, Gamepad2, Menu, X } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
+import { TabletSmartphone } from "lucide-react";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,7 +73,7 @@ const Sidebar = () => {
                   onClick={toggleSidebar}
                 >
                   <div className="flex items-center gap-4 font-bold">
-                    <SquareKanban /> Projects
+                    <TabletSmartphone /> Apps
                   </div>
                 </NavLink>
               </li>
