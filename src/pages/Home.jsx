@@ -1,40 +1,23 @@
-import Avatar from "../components/Avatar";
-import My from "../components/My";
+import React from "react";
+import { cssGridData } from "../data";
 
-function Home() {
+export default function Home() {
+  const sStyleCss = `bg-neutral-100 border-2 rounded-xl flex flex-col items-center justify-center`;
   return (
-    <div className="mt-24 mb-24 flex flex-col items-center ml-5 mr-5">
-      <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-10">
-        <Avatar />
-        <div className="text-center sm:text-left">
-          <h1 className="text-3xl sm:text-4xl font-extrabold">Shihab Ahmed</h1>
-          <h1 className="text-lg sm:text-xl font-semibold">
-            React Native Experts
-          </h1>
-        </div>
-      </div>
-
-      <div className="mt-5">
-        {/* <MySweper />
-        <RadialProgress /> */}
-        <My />
-      </div>
-      <button className="btn btn-outline btn-info mt-5 w-full sm:w-[45%]">
-        Download CV
-      </button>
-
-      <p className="mt-5 w-full sm:w-[45%] text-center sm:text-left">
-        I'm Evan Bacon, an artist and technologist. I'm currently building Expo
-        Router, the universal React framework. I started working on the Expo
-        project in 2017 with the goal to make mobile experiences easy to create,
-        share, and discover.
-      </p>
-
-      <button className="btn btn-outline btn-info mt-5 w-full sm:w-[45%]">
-        Go to More Web Front End Projects
-      </button>
+    <div className="grid md:grid-cols-3 auto-rows-[250px] gap-4 my-4">
+      {cssGridData.map((items, i) => {
+        return (
+          <div
+            key={i}
+            className={`${sStyleCss} ${
+              i === 3 || i === 6 ? "md:col-span-2" : ""
+            }`}
+          >
+            <h2 className=" text-xl text-gray-600">{items.title}</h2>
+            <p className=" font-bold text-xl">{items.name}</p>
+          </div>
+        );
+      })}
     </div>
   );
 }
-
-export default Home;

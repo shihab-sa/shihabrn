@@ -29,7 +29,7 @@ function MySwiper() {
   const handleSlideChange = (swiper) => {
     // Update progress value based on the active slide index
     const slideIndex = swiper.activeIndex;
-    const progressValues = [90, 70, 100, 80]; // Customize these values as needed
+    const progressValues = [90, 70, 100, 80, 50]; // Customize these values as needed
     setProgressValue(progressValues[slideIndex]);
   };
 
@@ -53,6 +53,9 @@ function MySwiper() {
         </SwiperSlide>
         <SwiperSlide className="flex justify-center items-center  bg-violet-600 text-xs font-semibold">
           React Native Doc
+        </SwiperSlide>
+        <SwiperSlide className="flex justify-center items-center  bg-violet-600 text-xs font-semibold">
+          Zustand
         </SwiperSlide>
       </Swiper>
     </div>
