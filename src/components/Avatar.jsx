@@ -1,3 +1,5 @@
+import CvDownload from "./CvDownload";
+
 function Avatar() {
   return (
     <div className=" flex items-center">
@@ -9,6 +11,7 @@ function Avatar() {
       <div className="ml-10">
         <h1 className=" md:text-3xl font-extrabold">Shihab Ahmed</h1>
         <h2 className=" text-xm">React Native</h2>
+        <CvDownload />
       </div>
     </div>
   );

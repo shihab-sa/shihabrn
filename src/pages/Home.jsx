@@ -1,8 +1,9 @@
-import React from "react";
 import { cssGridData } from "../data";
 import Avatar from "../components/Avatar";
 import BioText from "../components/BioText";
 import SocalMedia from "../components/SocalMedia";
+import My from "../components/My";
+import BackEnd from "../components/BackEnd";
 
 export default function Home() {
   const sStyleCss = `border-2 rounded-xl flex flex-col items-center justify-center`;
@@ -19,6 +20,8 @@ export default function Home() {
             {i === 0 && <Avatar />}
             <div className="">{i === 2 && <BioText />}</div>
             {i === 1 && <SocalMedia />}
+            {i === 3 && <My />}
+            {i === 6 && <BackEnd />}
           </div>
         );
       })}
