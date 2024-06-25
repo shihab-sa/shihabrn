@@ -41,6 +41,12 @@ export const cssGridData = [
     height: 45,
     bgcolor: "#2cb67d",
   },
+  {
+    title: "SDAS",
+    name: "CSE",
+    height: 45,
+    bgcolor: "#2cb67d",
+  },
 ];
 
 // App Project Data
@@ -93,6 +99,15 @@ export const projectsAppData = [
   },
   {
     num: "06",
+    category: "Android",
+    title: "Project 06",
+    description:
+      "An Android application for managing personal finances, featuring secure login and transaction tracking.",
+    stack: [{ name: "Kotlin" }, { name: "Room" }],
+    images: "/images/project06.png",
+  },
+  {
+    num: "07",
     category: "Android",
     title: "Project 06",
     description:

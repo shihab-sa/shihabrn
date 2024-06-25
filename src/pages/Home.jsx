@@ -6,6 +6,7 @@ import My from "../components/My";
 import BackEnd from "../components/BackEnd";
 import ImpactApp from "../components/ImpactApp";
 import Saas from "../components/Saas";
+import Aiapp from "../components/Aiapp";
 
 export default function Home() {
   const sStyleCss = `rounded-xl flex flex-col items-center justify-center`;
@@ -15,9 +16,7 @@ export default function Home() {
         return (
           <div
             key={i}
-            className={`${sStyleCss} ${
-              i === 0 || i === 6 ? "md:col-span-2" : ""
-            }`}
+            className={`${sStyleCss} ${i === 0 ? "md:col-span-2" : ""}`}
           >
             {i === 0 && <Avatar />}
             <div className="">{i === 2 && <BioText />}</div>
@@ -26,6 +25,7 @@ export default function Home() {
             {i === 4 && <ImpactApp />}
             {i === 5 && <Saas />}
             {i === 6 && <BackEnd />}
+            {i === 7 && <Aiapp />}
           </div>
         );
       })}
