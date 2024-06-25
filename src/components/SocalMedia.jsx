@@ -16,20 +16,21 @@ function SocalMedia() {
         modules={[Pagination]}
         className="mySwiper h-40 w-56 rounded-xl flex items-center"
       >
-        <SwiperSlide className="flex justify-center items-center  text-6xl font-semibold ">
-          <Instagram size={40} />
+        <SwiperSlide className="flex justify-center items-center  text-6xl font-semibold">
+          <a href="" target="_blank">
+            <Instagram size={40} />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide className="flex justify-center items-center   text-xs font-semibold">
+          <a href="" target="_blank">
+            <Mail size={40} />
+          </a>
         </SwiperSlide>
         <SwiperSlide className="flex justify-center items-center   text-xs font-semibold">
-          <Mail size={40} />
-        </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center   text-xs font-semibold">
-          <FaLinkedin size={40} />
-        </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center  text-xs font-semibold">
-          React Native Doc
-        </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center text-xs font-semibold">
-          Zustand
+          <a href="" target="_blank">
+            <FaLinkedin size={40} />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>
