@@ -1,15 +1,15 @@
 function BackEnd() {
   return (
-    <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-xl h-40 w-[100%] p-5 shadow-xl">
+    <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-xl w-[100%] p-5 shadow-xl">
       <h2 className="text-xl font-extrabold flex items-center">
-        <span className="text-2xl">💪</span>SAAS
+        <span className="text-2xl">⚙️</span>Back-End
       </h2>
       <h1 className=" text-xs">
-        I build something new. It's Growing.
-        <span className=" text-4xl font-bold">🌴</span>
+        The Hell of a back end
+        <span className=" text-4xl font-bold">💀</span>
       </h1>
-      <b className="md:text-2xl font-extrabold">🌳🌱</b>{" "}
-      <span className=" text-xs font-bold">Innovative mind</span>
+      <b className="md:text-2xl font-extrabold">🌱😑</b>{" "}
+      <span className=" text-xs font-bold">Challenge accepted</span>
     </div>
   );
 }

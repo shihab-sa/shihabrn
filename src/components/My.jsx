@@ -14,19 +14,19 @@ function MySwiper() {
         modules={[Pagination]}
         className="mySwiper h-40 w-56 rounded-xl flex items-center"
       >
-        <SwiperSlide className="flex justify-center items-center  text-xs font-semibold ">
+        <SwiperSlide className="flex justify-center items-center text-xs font-semibold">
           Reanimated
         </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center   text-xs font-semibold">
+        <SwiperSlide className="flex justify-center items-center text-xs font-semibold">
           React Native Skia
         </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center   text-xs font-semibold">
+        <SwiperSlide className="flex justify-center items-center text-xs font-semibold">
           Expo
         </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center  text-xs font-semibold">
+        <SwiperSlide className="flex justify-center items-center text-xs font-semibold">
           React Native Doc
         </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center  text-xs font-semibold">
+        <SwiperSlide className="flex justify-center items-center text-xs font-semibold">
           Zustand
         </SwiperSlide>
       </Swiper>

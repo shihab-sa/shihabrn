@@ -9,10 +9,10 @@ import Saas from "../components/Saas";
 import Aiapp from "../components/Aiapp";
 
 export default function Home() {
-  const sStyleCss = `border-2 rounded-xl flex flex-col items-center justify-center`;
+  const sStyleCss = `rounded-xl flex flex-col items-center justify-center`;
   return (
     <div className="md:ml-56 grid md:grid-cols-3 auto-rows-[200px] gap-1 mr-2 py-10 h-full">
-      {cssGridData.map((items, i) => {
+      {cssGridData.map((_, i) => {
         return (
           <div
             key={i}

@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { Home, Gamepad2, Menu, X } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 import { TabletSmartphone } from "lucide-react";
+import ShihabSidebar from "../assets/imeges/bgboss.jpg";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,10 +35,7 @@ const Sidebar = () => {
             <div className="flex items-center gap-4 px-4 py-4 mt-10">
               <div className="avatar online">
                 <div className="w-10 h-10 rounded-full ring ring-sky-600">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
-                    alt="Avatar"
-                  />
+                  <img src={ShihabSidebar} alt="Avatar" />
                 </div>
               </div>
               <div>
