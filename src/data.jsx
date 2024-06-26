@@ -49,70 +49,37 @@ export const cssGridData = [
   },
 ];
 
-// App Project Data
+// App data
 
-export const projectsAppData = [
+export let appData = [
   {
-    num: "01",
-    category: "iOS",
-    title: "Project 01",
-    description:
-      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.",
-    stack: [{ name: "reanimated" }, { name: "skia" }],
-    images: "/",
+    title: "Wifi blocker app",
+    paragraph:
+      "This App build in an Expo. Its Helps to Autometice Block in Your Wifi, when the time 10PM",
+    emojiApp: "💡",
   },
   {
-    num: "02",
-    category: "Android",
-    title: "Project 02",
-    description:
-      "This project involves developing a native Android application with advanced features and animations.",
-    stack: [{ name: "React Native" }, { name: "Firebase" }],
-    images: "/images/project02.png",
+    title: "Task management tool",
+    paragraph:
+      "A productivity tool designed to help organize tasks and schedules efficiently.",
+    emojiApp: "📅",
   },
   {
-    num: "03",
-    category: "Web",
-    title: "Project 03",
-    description:
-      "A web application that serves as a platform for online learning, incorporating modern web technologies.",
-    stack: [{ name: "React" }, { name: "Node.js" }],
-    images: "/images/project03.png",
+    title: "Weather notification app",
+    paragraph:
+      "Get real-time weather updates and alerts based on your location.",
+    emojiApp: "🌦️",
   },
   {
-    num: "04",
-    category: "iOS",
-    title: "Project 04",
-    description:
-      "An iOS application designed for seamless integration with health and fitness APIs to track user activity.",
-    stack: [{ name: "Swift" }, { name: "HealthKit" }],
-    images: "/images/project04.png",
+    title: "Fitness tracker app",
+    paragraph:
+      "Track your daily activities, calories burned, and set fitness goals.",
+    emojiApp: "🏃‍♂️",
   },
   {
-    num: "05",
-    category: "Web",
-    title: "Project 05",
-    description:
-      "A responsive e-commerce web application with a focus on user experience and performance optimization.",
-    stack: [{ name: "Vue.js" }, { name: "Express.js" }],
-    images: "/images/project05.png",
-  },
-  {
-    num: "06",
-    category: "Android",
-    title: "Project 06",
-    description:
-      "An Android application for managing personal finances, featuring secure login and transaction tracking.",
-    stack: [{ name: "Kotlin" }, { name: "Room" }],
-    images: "/images/project06.png",
-  },
-  {
-    num: "07",
-    category: "Android",
-    title: "Project 06",
-    description:
-      "An Android application for managing personal finances, featuring secure login and transaction tracking.",
-    stack: [{ name: "Kotlin" }, { name: "Room" }],
-    images: "/images/project06.png",
+    title: "Recipe finder app",
+    paragraph:
+      "Discover new recipes, create shopping lists, and plan meals easily.",
+    emojiApp: "🍲",
   },
 ];
