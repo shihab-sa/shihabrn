@@ -1,3 +1,4 @@
+import CommonProject from "../ProjectComponents/CommonProject";
 import { appData } from "../data";
 function Projects() {
   return (
@@ -13,8 +14,8 @@ function Projects() {
               <div className=" bg-black px-10 py-5 rounded-xl border-b-2 cursor-pointer hover:bg-gray-700">
                 <div className="flex gap-16">
                   <div>
-                    <h1 className="text-xl font-extrabold">{items.title}</h1>
-                    <p className=" text-xs">{items.paragraph}</p>
+                    <h1 className="md:text-xl font-extrabold">{items.title}</h1>
+                    <p className=" md:text-xs">{items.paragraph}</p>
                   </div>
                   <span className=" text-5xl">{items.emojiApp}</span>
                 </div>
@@ -23,6 +24,7 @@ function Projects() {
           );
         })}
       </div>
+      <CommonProject />
     </div>
   );
 }
