@@ -1,5 +1,5 @@
-import CommonProject from "../ProjectComponents/CommonProject";
-import { appData } from "../data";
+import { Link } from "react-router-dom";
+import { projectData } from "../data";
 function Projects() {
   return (
     <div className="md:ml-56 p-10">
@@ -8,23 +8,25 @@ function Projects() {
       </h1>
 
       <div className="mt-20">
-        {appData.map((items, i) => {
+        {projectData.map((items, i) => {
           return (
-            <div className="flex justify-center items-center py-5 mt-5">
-              <div className=" bg-black px-10 py-5 rounded-xl border-b-2 cursor-pointer hover:bg-gray-700">
+            <div key={i} className="flex justify-center items-center py-5 mt-5">
+              <Link
+                to={`/projects/${i}`}
+                className=" bg-black px-10 py-5 rounded-xl border-b-2 cursor-pointer md:hover:bg-gray-700"
+              >
                 <div className="flex gap-16">
                   <div>
-                    <h1 className="md:text-xl font-extrabold">{items.title}</h1>
-                    <p className=" md:text-xs">{items.paragraph}</p>
+                    <h1 className="text-xl font-extrabold">{items.title}</h1>
+                    <p className="text-xs">{items.paragraph}</p>
                   </div>
                   <span className=" text-5xl">{items.emojiApp}</span>
                 </div>
-              </div>
+              </Link>
             </div>
           );
         })}
       </div>
-      <CommonProject />
     </div>
   );
 }

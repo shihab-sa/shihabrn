@@ -1,26 +1,22 @@
-import imgProject from "../assets/imeges/proone.png";
+import { useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-function CommonProject() {
+
+function CommonProject({ title, imgSrc, description, buttonText }) {
+  const navigate = useNavigate();
+  console.log("Props:", { title, description, imgSrc, buttonText });
   return (
-    <div>
-      <div className="cursor-pointer flex gap-5">
-        <ArrowLeft size={30} /> Go Back
+    <div className="md:ml-56">
+      <div className="md:ml-20 md:mr-20 px-10  py-20">
+        <div className="cursor-pointer flex gap-5" onClick={() => navigate(-1)}>
+          <ArrowLeft size={30} /> Go Back
+        </div>
+        <div>
+          <h1 className="text-2xl font-extrabold mt-5">{title}</h1>
+          <img src={imgSrc} alt="" className=" mt-16 rounded-xl" />
+          <p className=" mt-16">{description}</p>
+          <button className="btn btn-wide mt-10">{buttonText}</button>
+        </div>
       </div>
-      <h1 className="text-2xl font-extrabold mt-5">
-        Wifi Blocker App <span className=" text-5xl">💡</span>
-      </h1>
-      <img src={imgProject} alt="" className=" mt-16 rounded-xl" />
-      <p className=" mt-16">
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout. The point of
-        using Lorem Ipsum is that it has a more-or-less normal distribution of
-        letters, as opposed to using 'Content here, content here', making it
-        look like readable English. Many desktop publishing packages and web
-        page editors now use Lorem Ipsum as their default model text, and a
-        search for 'lorem ipsum' will uncover many web sites still in their
-        infancy. Various versions have evolved
-      </p>
-      <button className="btn btn-wide mt-10">Go To App Store</button>
     </div>
   );
 }

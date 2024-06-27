@@ -19,8 +19,8 @@ export default function Home() {
             className={`${sStyleCss} ${i === 0 ? "md:col-span-2" : ""}`}
           >
             {i === 0 && <Avatar />}
-            <div className="">{i === 2 && <BioText />}</div>
-            {i === 1 && <SocalMedia />}
+            <div className="">{i === 1 && <BioText />}</div>
+            {i === 2 && <SocalMedia />}
             {i === 3 && <My />}
             {i === 4 && <ImpactApp />}
             {i === 5 && <Saas />}
