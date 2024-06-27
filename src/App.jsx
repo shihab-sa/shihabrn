@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./Sidebar/Sidebar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import Games from "./pages/Games";
 import Project from "./ProjectComponents/Project";
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
             <Route path="/home" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/:id" element={<Project />} />
-            <Route path="/games" element={<Games />} />
           </Routes>
         </div>
       </div>

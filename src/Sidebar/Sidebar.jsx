@@ -26,7 +26,7 @@ const Sidebar = () => {
       </button>
 
       <div
-        className={`bg-black h-full text-white  fixed top-0 left-0 overflow-y-auto transform ${
+        className={`bg-black  h-full text-white  fixed top-0 left-0 overflow-y-auto transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 transition-transform duration-300 z-40`}
       >
@@ -72,22 +72,6 @@ const Sidebar = () => {
                 >
                   <div className="flex items-center gap-4 font-bold">
                     <TabletSmartphone /> Apps
-                  </div>
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/games"
-                  className={({ isActive }) =>
-                    `block px-4 py-3 rounded-xl text-white hover:bg-gray-700 transition duration-300 ${
-                      isActive ? "bg-gray-700" : ""
-                    }`
-                  }
-                  onClick={toggleSidebar}
-                >
-                  <div className="flex items-center gap-4 font-bold">
-                    <Gamepad2 /> Games
                   </div>
                 </NavLink>
               </li>

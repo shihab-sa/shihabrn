@@ -3,17 +3,21 @@ import { projectData } from "../data";
 function Projects() {
   return (
     <div className="md:ml-56 p-10">
-      <h1 className="ml-20 mt-10 text-3xl font-extrabold">
-        List of Apps (iOs and Android)🌳🟢
+      <h1 className=" md:text-3xl font-bold mt-10">
+        List of Apps [iOs & Android]<span className=" text-4xl">🌳</span>
       </h1>
+      <p className=" mt-5">
+        Hire your expert mobile app software engineer. I build impactful mobile
+        apps
+      </p>
 
-      <div className="mt-20">
+      <div className="mt-10">
         {projectData.map((items, i) => {
           return (
             <div key={i} className="flex justify-center items-center py-5 mt-5">
               <Link
                 to={`/projects/${i}`}
-                className=" bg-black px-10 py-5 rounded-xl border-b-2 cursor-pointer md:hover:bg-gray-700"
+                className=" bg-black py-5 px-5 rounded-xl border-b-2 cursor-pointer md:hover:bg-gray-700"
               >
                 <div className="flex gap-16">
                   <div>
