@@ -2,8 +2,8 @@ import React from "react";
 
 function ImpactApp() {
   return (
-    <div>
-      <div className="bg-gradient-to-r from-indigo-500 rounded-xl w-[100%] p-5  shadow-2xl">
+    <div className="bg-gradient-to-r from-indigo-500 rounded-xl shadow-2xl w-full h-full flex items-center justify-center">
+      <div className="">
         <h2 className="text-xl font-extrabold flex items-center">
           <span className="text-2xl">🧠</span>Brainstorming
         </h2>

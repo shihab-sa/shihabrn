@@ -2,11 +2,11 @@ import React from "react";
 
 function Aiapp() {
   return (
-    <div className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 rounded-xl w-[100%] p-5 shadow-xl">
+    <div className="bg-gradient-to-r from-amber-500 to-pink-500 h-full w-full flex justify-center items-center">
       <h2 className="text-xl font-extrabold flex items-center">
         <span className="text-2xl">💡</span>AI APP
       </h2>
-      <h1 className=" text-xs">
+      <h1 className="text-xs">
         ready for the third world war
         <span className="text-4xl font-bold">🤖</span>
       </h1>

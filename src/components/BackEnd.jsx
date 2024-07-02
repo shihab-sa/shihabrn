@@ -1,6 +1,6 @@
 function BackEnd() {
   return (
-    <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-xl w-[100%] p-5 shadow-xl">
+    <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-xl shadow-xl w-full h-full flex justify-center items-center">
       <h2 className="text-xl font-extrabold flex items-center">
         <span className="text-2xl">⚙️</span>Back-End
       </h2>

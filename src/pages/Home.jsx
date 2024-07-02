@@ -9,7 +9,7 @@ import Saas from "../components/Saas";
 import Aiapp from "../components/Aiapp";
 
 export default function Home() {
-  const sStyleCss = ` border-2 rounded-xl flex flex-col items-center justify-center`;
+  const sStyleCss = ` rounded-xl flex flex-col items-center justify-center`;
   return (
     <div className="md:ml-56 grid md:grid-cols-3 auto-rows-[200px] gap-1 mr-2 py-10 h-full">
       {cssGridData.map((_, i) => {
@@ -19,7 +19,7 @@ export default function Home() {
             className={`${sStyleCss} ${i === 0 ? "md:col-span-2" : ""}`}
           >
             {i === 0 && <Avatar />}
-            <div className="">{i === 1 && <BioText />}</div>
+            {i === 1 && <BioText />}
             {i === 2 && <SocalMedia />}
             {i === 3 && <My />}
             {i === 4 && <ImpactApp />}
