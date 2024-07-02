@@ -1,7 +1,7 @@
 function CvDownload() {
   return (
-    <a href="" target="_blank">
-      <button className="btn btn-xs px-4">Download CV</button>
+    <a href="" target="_blank" className="">
+      <button className="btn btn-xs  btn-primary">Download CV</button>
     </a>
   );
 }
