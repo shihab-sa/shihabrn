@@ -3,7 +3,7 @@ import Shihab from "../assets/imeges/bgboss.jpg";
 
 function Avatar() {
   return (
-    <div className="bg-gradient-to-r from-rose-400 to-red-500 w-full h-full rounded-xl flex items-center justify-center">
+    <div className="w-full h-full rounded-xl flex items-center justify-center">
       <div className="flex justify-center items-center">
         <div className="avatar">
           <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
