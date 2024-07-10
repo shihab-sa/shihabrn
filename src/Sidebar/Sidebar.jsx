@@ -20,13 +20,13 @@ const Sidebar = () => {
 
       <button
         onClick={toggleSidebar}
-        className="fixed top-0 right-0 z-50 md:hidden  text-white p-2 w-[100%] bg-gray-600"
+        className="fixed top-0 right-0 z-50 md:hidden   text-white p-2 w-[100%] bg-gray-600"
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
       <div
-        className={`bg-black  h-full text-white  fixed top-0 left-0 overflow-y-auto transform ${
+        className={`bg-black shadow-2xl h-full text-white  fixed top-0 left-0 overflow-y-auto transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 transition-transform duration-300 z-40`}
       >
